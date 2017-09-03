@@ -12,7 +12,7 @@
 
 <section class="staggard-section">
 
-<div class="small-container">![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg)
+<div class="small-container">![https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg)
 
 <div class="staggard-section-info">
 
@@ -28,7 +28,7 @@ Twistlock runtime protection for containers uses a set of automatic profiling po
 
 <section class="staggard-section">
 
-<div class="small-container">![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg)
+<div class="small-container">![https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg)
 
 <div class="staggard-section-info">
 
