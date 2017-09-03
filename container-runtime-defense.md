@@ -5,7 +5,7 @@ Twistlock runtime defense protects your containers against exploits, compromises
 
 
 
-![https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg)
+![usecase-Runtime_policy](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg)
 
 
 ### Smart Policies
@@ -15,7 +15,7 @@ Twistlock runtime protection for containers uses a set of automatic profiling po
 
 
 
-![https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg)
+![usecase-Runtime_management](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_management.svg)
 
 
 ### Config/Process Management
@@ -24,7 +24,7 @@ Our runtime protection solution provides easy-to-use policy templates, including
 
 
 
-![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_network.svg)
+![usecase-Runtime_network](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_network.svg)
 
 
 
@@ -33,20 +33,20 @@ Our runtime protection solution provides easy-to-use policy templates, including
 We can automatically build network activity profiles for containers, detect deviating behavior dynamically, spot suspicious communications to compromised IP’s, and report policy-violating network actions. We can also enforce container linkages and port restrictions. When policy violations occur, we can notify, log, block user access, or kill compromised containers.
 
 
-![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_visiblity.svg)
+![usecase-Runtime_visiblity](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_visiblity.svg)
 
 
 ### Visibility & Analytics
 
 Twistlock's console provides a central dashboard displaying the number of active containers, vulnerability information, software libraries used, risk visualization/trending, policy violations, corrective actions, and user activities. Twistlock logs everything in native syslog format for easy SIEM integration and analytics.
-![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_vantage-point.svg)
+![usecase-Runtime_vantage-point](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_vantage-point.svg)
 
 ### Dev-to-Production Vantage Point
 
 For DevOps, policies governing static container images are often the same policies applied to running containers. Twistlock can enforce consistent policies from dev time to production with our container tagging framework and central intelligence. Our unique vantage point in both dev and production enables us to optimally gather intelligence and enforce policies for your production applications.
 
 
-![](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_realtime-threat.svg)
+![usecase-Runtime_realtime-threat](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_realtime-threat.svg)
 
 ### Real-time Threat Intelligence
 
