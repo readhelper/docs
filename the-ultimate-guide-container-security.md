@@ -6,7 +6,7 @@
 
 Securing any type of software environment is a big task. But if you use containers, constructing and enforcing a solid security program can be especially difficult.
 
-That’s because a containerized environment involves so many different layers as compared to other types of infrastructure. With virtual machines, you have only a host operating system (OS), a guest OS, and a guest application environment to secure. On bare metal, and in most types of cloud-based environments, the security situation is even simpler because there are fewer layers of software.
+That’s because `a containerized environment involves so many different layers` as compared to other types of infrastructure. With virtual machines, you have only a host operating system (OS), a guest OS, and a guest application environment to secure. On bare metal, and in most types of cloud-based environments, the security situation is even simpler because there are fewer layers of software.
 
 In contrast, in a production container environment, you have a number of different layers and tools to secure. In addition to the host OS and the container runtime, you have an orchestrator, a container registry, images, and probably several different microservices within your application.
 
