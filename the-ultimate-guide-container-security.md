@@ -20,8 +20,8 @@ Fortunately, the host OS is also probably the easiest part of the stack to secur
 
 The most important considerations to keep in mind for hardening the host OS include:
 
-*   Minimize attack vectors_. A Linux-based OS whose sole job is to host a Docker environment doesn’t need to have much running. Minimize opportunities for attack by eliminating all but the essentials from your host environment. You can do this manually by taking a Linux distribution of your choice and stripping it down, or you could use a minimalist distribution [like Alpine](https://alpinelinux.org/).
-*   Enforce strict access control_. If your host OS’s only role is hosting a container environment, you don’t need many accounts. In fact, in most cases, all you need is a root user (whose access can be locked down by allowing logins only from specific remote hosts) and dummy user accounts (which should also be locked down so that they can access only the specific services or resources that they require to do their jobs). Tools like SELinux and AppArmor can help to create and enforce rigid access control policies.
+*   Minimize attack vectors（最新化攻击因素）. A Linux-based OS whose sole job is to host a Docker environment doesn’t need to have much running. Minimize opportunities for attack by eliminating all but the essentials from your host environment. You can do this manually by taking a Linux distribution of your choice and stripping it down, or you could use a minimalist distribution [like Alpine](https://alpinelinux.org/).
+*   Enforce strict access control（加固访问控制）. If your host OS’s only role is hosting a container environment, you don’t need many accounts. In fact, in most cases, all you need is a root user (whose access can be locked down by allowing logins only from specific remote hosts) and dummy user accounts (which should also be locked down so that they can access only the specific services or resources that they require to do their jobs). Tools like SELinux and AppArmor can help to create and enforce rigid access control policies.
 
 ## Container Runtime
 
