@@ -14,7 +14,7 @@ How do you keep each of those pieces secure and hardened against attacks? The fo
 
 ## Host Operating System
 
-The OS that hosts your container environment is perhaps the most important layer of the stack to secure, because an attack that compromises the host environment could provide intruders with access to everything else in your stack.
+The OS that hosts your container environment is perhaps the most important layer of the stack to secure, because an attack that compromises（突破、损害） the host environment could provide intruders（攻击者） with access to everything else in your stack.
 
 Fortunately, the host OS is also probably the easiest part of the stack to secure. The types of operating systems that are used to host containers are not fundamentally different from those that admins have been using for years to host other types of workloads. In most cases, your host OS is a Linux distribution, and the principles you use to [harden any type of Linux environment](https://www.twistlock.com/resources/securely-configure-linux-host-run-containers/) apply when you’re dealing with containers.
 
