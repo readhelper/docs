@@ -1,7 +1,7 @@
 # Use Cases
 
 Twistlock’s comprehensive, purpose–built platform for container security provides full visibility and control over containerized environments, 
-with tight runtime security controls and intrusion prevention capabilities, at any scale.
+with tight runtime security controls(运行时安全控制) and intrusion prevention capabilities(入侵防御能力), at any scale(任何规模).
 
 ### Runtime Defense
 wistlock runtime defense protects your containers against exploits, compromises, program mistakes and configuration errors. We monitor container 
