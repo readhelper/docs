@@ -5,7 +5,7 @@ Twistlock runtime defense protects your containers against exploits, compromises
 
 
 
-![usecase-Runtime_policy](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg  =300x300)
+![usecase-Runtime_policy](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg =300x300)
 
 
 ### Smart Policies
