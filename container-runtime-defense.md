@@ -4,6 +4,7 @@
 Twistlock runtime defense protects your containers against exploits, compromises, application flaws and configuration errors. We monitor container activities, detect policy violations, report anomalies, and execute corrective actions. We do all this without changing your host, your container daemon, or your applications.</div>
 
 
+<img src="https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg" width=256 height=256 />
 
 ![usecase-Runtime_policy](https://www.twistlock.com/wp-content/uploads/2017/01/usecase-Runtime_policy.svg =100x100)
 
