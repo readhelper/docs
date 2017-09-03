@@ -10,8 +10,8 @@ the container daemon, or your applications.
 
 ### Vulnerability Management
 Twistlock scans container images in registries, on dev workstations and on production servers for vulnerabilities and mis-configurations. We detect 
-and report vulnerabilities in the Linux distro, app frameworks and even your customer app packages. The scanning tasks are seamlessly integrated with 
-CI pipelines and existing processes.
+and report vulnerabilities in the Linux distro, app frameworks and even your customer app packages. The scanning tasks are seamlessly（无空隙地;无停顿地;） 
+integrated with CI pipelines and existing processes.
 
 ### Access Control
 The Twistlock access control solution allows you to define and enforce fine-grained policies governing user access to Docker and Kubernetes resources. 
