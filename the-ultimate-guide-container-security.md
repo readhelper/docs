@@ -31,7 +31,7 @@ That’s why you should be sure to implement the following in order to keep your
 
 *   Establish a baseline for your container environment in a normal, secure state. Perform real-time scans of running containers and compare the results to the baseline in order to detect anomalies that could signal an attack.
 *   Focus on securing your application, rather than relying on network-level security tools to keep you safe. Firewalls and other types of perimeter defenses don’t work well in a containerized environment. (That said, you should certainly take basic precautions to secure your networks—For example, be sure that encryption is configured for overlay networks.)
-*   Ensure that running containers are stopped and replaced with new containers whenever you make an update to your applications or services. In other words, make sure to keep your containerized infrastructure immutable. This is safer than attempting to perform live updates on running containers, which leads to configuration drift and poor enforcement of security policies.
+*   Ensure that running containers are stopped and replaced with new containers whenever you make an update to your applications or services. In other words, make sure to keep your containerized infrastructure immutable（只能，不可变）. This is safer than attempting to perform live updates on running containers, which leads to configuration drift and poor enforcement of security policies.
 *   Remember that your running containers are only as secure as the application code that powers them. All of the traditional rules for writing secure code and vetting it for security after it is written apply. In this regard, the [shift-left security concept](https://www.twistlock.com/2017/05/31/shift-left-security/) can come in handy.
 
 ## Registry
@@ -55,7 +55,7 @@ To secure images, keep the following pointers in mind:
 *   Images should contain the bare minimum amount of code necessary to run whichever service or application you are creating the image for. Exclude any non-essential services from the image. For example, in most cases there is no reason to include an SSH server inside a container image because you can log into the container in other, more secure ways. So don’t include SSH.
 *   The purpose of images is to provide a blueprint for creating an application or service container. Don’t use images for other tasks, like hosting source code. Indeed, this may be convenient, but there are better, safer ways to host source code, such as using a code repository. This is a mistake that Vine famously made last year, when it placed source code inside container images that [turned out to be publicly available](https://avicoder.me/2016/07/22/Twitter-Vine-Source-code-dump/).
 
-## Orchestrator
+## Orchestrator（编排）
 
 The orchestrator is the brain that keeps all of your containers running smoothly. It’s another essential component of a container stack.
 
